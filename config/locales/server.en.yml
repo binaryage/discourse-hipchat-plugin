@@ -1,0 +1,7 @@
+en:
+  site_settings:
+    hipchat_enabled: "Report activity to HipChat?"
+    hipchat_auth_token: "HipChat API token. See https://www.hipchat.com/docs/api/auth."
+    hipchat_room_id: "Target HipChat room ID or name. See https://www.hipchat.com/docs/api/method/rooms/message (room_id field)."
+    hipchat_message_from: "Name the message will appear be sent from. Must be less than 15 characters long. May contain letters, numbers, -, _, and spaces. See https://www.hipchat.com/docs/api/method/rooms/message (from field)."
+    hipchat_message_color: "Background color for message. One of 'yellow', 'red', 'green', 'purple', 'gray', or 'random'. See https://www.hipchat.com/docs/api/method/rooms/message (color field)."

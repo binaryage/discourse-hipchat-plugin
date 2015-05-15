@@ -1,0 +1,11 @@
+plugins:
+  hipchat_enabled:
+    default: false
+  hipchat_auth_token:
+    default: ""
+  hipchat_room_id:
+    default: ""
+  hipchat_message_from:
+    default: "Discourse"
+  hipchat_message_color:
+    default: "green"
