@@ -10,7 +10,7 @@ module HipChat
     params = {
       "auth_token" => settings.hipchat_auth_token,
       "room_id" => settings.hipchat_room_id,
-      "from" => settings.hipchat_message_from or "Discourse",
+      "from" => (settings.hipchat_message_from or "Discourse"),
       "color" => (settings.hipchat_message_color or "green"),
       "message_format" => "html",
       "message" => message
